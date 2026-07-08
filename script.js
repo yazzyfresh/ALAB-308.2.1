@@ -6,7 +6,7 @@ const area = PI * radius * radius;
 console.log("Garden area", area);
 
 //plants
-const plantSpace = 0.8;
+const minSpacePerPlant = 0.8;
 const startingPlants = 20;
 
 //week growth
@@ -16,6 +16,9 @@ let week = 1;
 let plantCount = startingPlants * (2 ** week);
 
 //Area / Max Capacity of the plants
+
+let maxCapacity = area / minSpacePerPlant;
+
 
 
 //PHUDOCODE! Write out your progress
