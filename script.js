@@ -15,5 +15,7 @@ let week = 1;
 //plant weekly double growth
 let plantCount = startingPlants * (2 ** week);
 
+//Area / Max Capacity of the plants
+
 
 //PHUDOCODE! Write out your progress
