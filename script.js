@@ -19,6 +19,15 @@ let plantCount = startingPlants * (2 ** week);
 
 let maxCapacity = area / minSpacePerPlant;
 
+console.log("Garden area", area);
+console.log
+
+// weeks making a loop for usablility 
+
+for (let week =1; week <=3; week++){
+    let plantCount = startingPlants * 2 ** week;
+    console.log("Week:" + week);
+    console.log(plantCount);
 
 
-//PHUDOCODE! Write out your progress
+}
