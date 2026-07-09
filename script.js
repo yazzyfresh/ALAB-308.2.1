@@ -58,9 +58,22 @@ const requiredArea = largePlantCount * minSpacePerPlant
 const newRadius =  Math.sqrt(requiredArea / PI);
 
 console.log("plants after 10 weeks:", largePlantCount);
-console.log("new area", newArea);
+console.log("new area", requiredArea);
 console.log("new radius" , newRadius);
 
 
 //=================pt3 
 
+try {
+    const plants= 100;
+    const requiredSpace = plants * minSpacePerPlant;
+
+    if(requiredSpace > area){
+        throw new Error ("no space!");
+    }
+    console.log("enough space!");
+
+
+} catch (error){
+    console.log('error:', error.message)
+}
