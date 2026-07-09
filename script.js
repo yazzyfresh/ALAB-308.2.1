@@ -26,6 +26,8 @@ console.log("Maximum capacity", maxCapacity);
 for (let week = 1; week <= 3; week++) {
   let plantCount = startingPlants * 2 ** week;
 
+
+  
   console.log("Week:" + week);
   console.log(plantCount);
 
