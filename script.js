@@ -32,9 +32,35 @@ for (let week = 1; week <= 3; week++) {
   //===================pruned?
   if (plantCount > maxCapacity * 0.8) {
     console.log("Recomend : pruned");
+
+    ///monitor
   } else if (plantCount >= maxCapacity * 0.5) {
     console.log("recomend : mmonator");
+
+    //planted
   } else {
     console.log("recomed: planted");
   }
 }
+
+//=============================pt 2
+
+const largeStartingPlants = 100;
+
+const weeks = 10;
+
+const largePlantCount = largeStartingPlants * (2 ** weeks);
+
+const requiredArea = largePlantCount * minSpacePerPlant
+
+
+// Math.sqrt////calculate the square root of a number.
+const newRadius =  Math.sqrt(requiredArea / PI);
+
+console.log("plants after 10 weeks:", largePlantCount);
+console.log("new area", newArea);
+console.log("new radius" , newRadius);
+
+
+//=================pt3 
+
