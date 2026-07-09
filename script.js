@@ -3,7 +3,6 @@ const PI = 3.1415;
 const radius = 5;
 
 const area = PI * radius * radius;
-console.log("Garden area", area);
 
 //plants
 const minSpacePerPlant = 0.8;
@@ -20,7 +19,7 @@ let plantCount = startingPlants * (2 ** week);
 let maxCapacity = area / minSpacePerPlant;
 
 console.log("Garden area", area);
-console.log
+console.log("Maximum capacity" , maxCapacity);
 
 // weeks making a loop for usablility 
 
